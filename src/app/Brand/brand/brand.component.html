@@ -22,7 +22,16 @@
             <td>{{brand.products}}</td>
             <td>
                 <button class="update-button" [routerLink]="['/updatebrand',brand.id]">Update</button>
-                <button class="delete-button" (click)="delete(brand.id)">Delete</button>
+                <div *ngIf ="operation == 'delete'">
+                    <p class="card-title">
+                        {{brand.name}}
+                    </p>
+                    <p>Voulez-vous vraiment supprimer ce produit !</p>
+                 <button class="delete-button" (click)="delete(brand.id)">Delete</button>
+                </div>
+                <div class="card-footer">
+                    
+                </div>
             </td>
         </tr>
 

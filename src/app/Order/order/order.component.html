@@ -23,9 +23,10 @@
               <td>$100.00</td>
               <td>Shipped</td>
               <td>
-                  <button class="update-button" [routerLink]="['/updateorder']">Update</button>
-                  <button class="delete-button">Delete</button>
-              </td>
+                <button class="update-button delete-animation" [routerLink]="['/updateorder']">Update</button>
+                <button class="delete-button" (click)="Delete()">Delete</button>
+            </td>
+              
           </tr>
       </tbody>
   </table>

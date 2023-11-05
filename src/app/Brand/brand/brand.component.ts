@@ -8,6 +8,7 @@ import { BrandService } from 'src/app/Services/brand.service';
   styleUrls: ['./brand.component.css']
 })
 export class BrandComponent {
+  operation: string = "delete"
   brands: Brand[] = [];
   newBrand: Brand = new Brand();
   selectedBrand: Brand | null = null;

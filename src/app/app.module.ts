@@ -64,6 +64,7 @@ import { AddprodComponent } from './prod/addprod/addprod.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule ,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
