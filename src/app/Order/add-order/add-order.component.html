@@ -19,8 +19,8 @@
 
   <label>
     <span class="spantext">Status &nbsp;&nbsp;</span>
-    <select>
-      <option selected style="color: gray;">Status</option>
+    <select class="select-status">
+      <option>Status</option>
       <option value="1">Pending</option>
       <option value="2">Processing</option>
       <option value="3">Shipped</option>
@@ -31,7 +31,7 @@
 
   <button [routerLink]="['/orders']" class="fancy">
     <span class="top-key"></span>
-    <span class="text">submit</span>
+    <span class="text">Add order</span>
     <span class="bottom-key-1"></span>
     <span class="bottom-key-2"></span>
   </button>

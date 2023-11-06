@@ -1,6 +1,6 @@
 .addorder {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   width: 600px;
   padding: 40px;
@@ -26,9 +26,9 @@
   flex-direction: column;
   gap: 10px;
   max-width: 550px;
-  background: linear-gradient(to right, #a30ae4, #3498db);
+  background: linear-gradient(to right, #d086f0, #3498db);
   /* Pour les navigateurs qui ne prennent pas en charge les dégradés CSS3 */
-  background: -webkit-linear-gradient(to right, #8e44ad, #3498db);
+  background: -webkit-linear-gradient(to right, #8c1dbc, #3498db);
   /* Pour les navigateurs Safari 5.1 à 6.0 */
   background: -moz-linear-gradient(to right, #8e44ad, #3498db);
   /* Pour les navigateurs Firefox 3.6 à 15 */
@@ -37,9 +37,10 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8e44ad', endColorstr='#3498db',GradientType=1);
   /* Pour les navigateurs IE 6 à 9 */
   padding: 20px;
-  border-radius: 10px;
+  border-radius:100px;
   position: relative;
   color: #fff;
+  box-shadow:20px ;
 }
 
 
